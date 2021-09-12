@@ -1,7 +1,7 @@
 import Thumbnail from "./Thumbnail"
 import FlipMove from "react-flip-move"
 
-function Results({ results }) {
+export default function Results({ results }) {
     return (
         <FlipMove className="px-5 my-10 sm:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 3xl:flex flex-wrap justify-center ">
             {results.results.map(result => (
@@ -13,4 +13,4 @@ function Results({ results }) {
     )
 }
 
-export default Results
+

@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { useRouter } from "next/router"
 
-function Similarity({ similars }) {
+export default function Similarity({ similars }) {
     const BASE_URL = "https://image.tmdb.org/t/p/original/"
     const router = useRouter()
 
@@ -18,4 +18,4 @@ function Similarity({ similars }) {
     )
 }
 
-export default Similarity
+

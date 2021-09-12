@@ -2,7 +2,7 @@ import { useRouter } from "next/router"
 import request from "../utils/requests"
 
 
-function Nav() {
+export default function Nav() {
     const router = useRouter()
 
     return (
@@ -19,4 +19,4 @@ function Nav() {
     )
 }
 
-export default Nav
+

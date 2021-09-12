@@ -5,7 +5,7 @@ import Similarity from '../../components/movie/Similarity'
 import Nav from '../../components/Header'
 
 
-function Movie(props) {
+export default function Movie(props) {
     return (
         <div>
             <Head>
@@ -36,7 +36,7 @@ function Movie(props) {
     )
 }
 
-export default Movie
+
 
 export async function getServerSideProps(context){
     const id = context.query.id

@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-function Header({ result }) {
+export default function Header({ result }) {
     const BASE_URL = "https://image.tmdb.org/t/p/original/"
 
     return (
@@ -20,4 +20,4 @@ function Header({ result }) {
     )
 }
 
-export default Header
+

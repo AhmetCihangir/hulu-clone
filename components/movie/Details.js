@@ -1,6 +1,6 @@
 import { StarIcon } from "@heroicons/react/solid"
 
-function Details({ result }) {
+export default function Details({ result }) {
     return (
         <div className="mt-10 ml-4">
             <h2 className="text-white text-2xl"> {result.tagline && result.tagline}</h2>
@@ -38,4 +38,4 @@ function Details({ result }) {
     )
 }
 
-export default Details
+
